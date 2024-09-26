@@ -1,3 +1,8 @@
+
+# Update 2024-09-26
+
+This repository is under renovation.  Come back soon for updates.
+
 # Codespaces Rust Starter
 
 This project is a generic starter for developers to use in Codespaces that includes basic system tools and extensions.
