@@ -11,19 +11,6 @@ This project is a generic starter for developers to use in Codespaces that inclu
 
 This is a basic environment that should be ready to expand upon to build a day-to-day development envrionment for Rust. It comes with the following software choices:
 
-### System Tools
-
-- [curl/curl](https://github.com/curl/curl): the command line tool for transferring data over a metric boatload of protocols.
-- git: the Git SCM tool.
-- [gnupg2](https://gnupg.org/): a complete and free implementatiuon of the OpenPGP standard.
-- [stedolan/jq](https://github.com/stedolan/jq) - a command line JSON parser.
-- [sudo](https://www.sudo.ws/) - the superuser authority delegation tool.
-- [zsh](https://www.zsh.org/) - interactive terminal (alternative to `bash`).
-- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - a delightful community driven framework for managing zsh config.
-- [vim](https://www.vim.org/) - a text editor
-- build essentials - tools for compiling and linking code
-- [openssl](https://www.openssl.org/) - tls and ssl toolkit
-
 ### Rust Tools
 
 Besides Rust and Cargo, the image comes with the following Rust related tooling:
@@ -38,6 +25,20 @@ Besides Rust and Cargo, the image comes with the following Rust related tooling:
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb): native debugger based on LLDB.
 - [Crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates): helps Rust developers managing dependencies with Cargo.toml.
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): collaborative, multi-user remote editing from directly within the editor.
+- [Even Better Toml](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml): Support for toml.
+- [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): Vim mode for VSCode.
+
+### System Tools
+
+- [curl/curl](https://github.com/curl/curl): the command line tool for transferring data over a metric boatload of protocols.
+- git: the Git SCM tool.
+- [gnupg2](https://gnupg.org/): a complete and free implementatiuon of the OpenPGP standard.
+- [stedolan/jq](https://github.com/stedolan/jq) - a command line JSON parser.
+- [sudo](https://www.sudo.ws/) - the superuser authority delegation tool.
+- [zsh](https://www.zsh.org/) - interactive terminal (alternative to `bash`).
+- [vim](https://www.vim.org/) - a text editor
+- build essentials - tools for compiling and linking code
+- [openssl](https://www.openssl.org/) - tls and ssl toolkit
 
 ### Operating System
 
@@ -104,3 +105,8 @@ To load this setup in a container, we need to point to it. We have many options 
 ![](https://user-images.githubusercontent.com/113/84297926-2ad3da00-ab03-11ea-8045-690eb0763d9f.png)
 
 That's it, you are all setup, you can modify and run the code in your local VSCode instance but the code and extensions will run in your container.
+
+
+### Using your own Dotfiles
+
+See [Personalizing GitHub Codespaces for your account](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account): for how to set this up with your own dotfiles.
