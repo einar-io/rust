@@ -25,6 +25,8 @@ COPY user.sh user.sh
 
 USER rustacean
 
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && source $HOME/.cargo/env
+
 RUN bash ./user.sh && rm ./user.sh
 
 ENV PATH="$HOME/.cargo/bin:$PATH"
