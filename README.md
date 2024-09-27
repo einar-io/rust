@@ -1,8 +1,3 @@
-
-# Update 2024-09-26
-
-This repository is under renovation.  Come back later for updates.
-
 # Codespaces Rust Starter 2024
 
 This project is a generic starter for developers to use in Codespaces that includes basic system tools and extensions.
@@ -10,14 +5,6 @@ This project is a generic starter for developers to use in Codespaces that inclu
 ## What's Included
 
 This is a basic environment that should be ready to expand upon to build a day-to-day development envrionment for Rust. It comes with the following software choices:
-
-### Rust Tools
-
-Besides Rust and Cargo, the image comes with the following Rust related tooling:
-
-- [rustup](https://rustup.rs/): installer and toolchain manager
-- [rustfmt](https://github.com/rust-lang/rustfmt): a tool for formatting Rust code according to style guidelines
-- [clippy](https://github.com/rust-lang/rust-clippy): lints to catch common mistakes and improve your Rust code
 
 ### VS Code Extensions
 
@@ -28,6 +15,7 @@ Besides Rust and Cargo, the image comes with the following Rust related tooling:
 
 ### System Tools
 
+- [rustup](https://rustup.rs/): installer and toolchain manager.  Provides `cargo` including `cargo fmt` and `cargo clippy`.
 - [curl](https://github.com/curl/curl): the command line tool for transferring data over a metric boatload of protocols.
 - git: the Git SCM tool.
 - [gnupg2](https://gnupg.org/): a complete and free implementatiuon of the OpenPGP standard.
