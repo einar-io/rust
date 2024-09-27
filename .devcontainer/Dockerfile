@@ -1,23 +1,26 @@
 FROM ubuntu:24.04
 
 RUN apt update && apt upgrade -y && apt install -y \
-  curl \
+  build-essential \                                                                                               
+  curl \ 
+  fd-find \
+  fzf \
   git \
+  git-delta \
   gnupg2 \
   jq \
-  sudo \
-  zsh \
-  vim \
-  build-essential \
+  liquidprompt \
+  locate \
+  mold \
   openssl \
   ripgrep \
+  screenfetch \
+  sudo \
   tig \
-  fzf \
-  git-delta \
-  fd-find \
-  liquidprompt \
-  mold \
-  locate
+  vim \
+  zsh \
+  zsh-autosuggestions \
+  zsh-syntax-highlighting
 
 RUN useradd --create-home --shell /bin/zsh rustacean
 
@@ -27,6 +30,6 @@ USER rustacean
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
-RUN printf 'export LC_ALL=C.utf8\necho $- | grep -q i 2>/dev/null && . /usr/share/liquidprompt/liquidprompt\n' >> "$HOME/.zshrc"
+RUN printf 'export LC_ALL=C.utf8\necho $- | grep -q i 2>/dev/null && . /usr/share/liquidprompt/liquidprompt\nscreenfetch\n' >> "$HOME/.zshrc"
 
 ENV PATH="$HOME/.cargo/bin:$PATH"

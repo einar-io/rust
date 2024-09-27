@@ -16,15 +16,27 @@ This is a basic environment that should be ready to expand upon to build a day-t
 ### System Tools
 
 - [rustup](https://rustup.rs/): installer and toolchain manager.  Provides `cargo` including `cargo fmt` and `cargo clippy`.
+- [mold](https://github.com/rui314/mold) - the `mold` linker.  This is not active by default. #todo
+- [git](https://git-scm.com/): the Git SCM tool.
+- [vim](https://www.vim.org/) - a text editor
 - [curl](https://github.com/curl/curl): the command line tool for transferring data over a metric boatload of protocols.
-- git: the Git SCM tool.
-- [gnupg2](https://gnupg.org/): a complete and free implementatiuon of the OpenPGP standard.
 - [jq](https://github.com/stedolan/jq) - a command line JSON parser.
 - [sudo](https://www.sudo.ws/) - the superuser authority delegation tool.
 - [zsh](https://www.zsh.org/) - interactive terminal (alternative to `bash`).
-- [vim](https://www.vim.org/) - a text editor
-- build essentials - tools for compiling and linking code
+- [build essentials](https://packages.debian.org/sid/build-essential) - tools for compiling and linking code
+- [gnupg2](https://gnupg.org/): a complete and free implementatiuon of the OpenPGP standard.
 - [openssl](https://www.openssl.org/) - tls and ssl toolkit
+
+### Shell conveniences
+
+- [delta](https://github.com/dandavison/delta) - `delta` diff viewer with colours
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - `rg` is a grep replacement
+- [zsh-autosuggetions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [fzf](https://github.com/junegunn/fzf) Fuzzy finder
+- [tig](https://jonas.github.io/tig/)
+- [liquidprompt](https://github.com/liquidprompt/liquidprompt)
+- [screenfetch](https://github.com/KittyKatt/screenFetch) system information
 
 ### Operating System
 
