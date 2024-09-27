@@ -27,6 +27,6 @@ USER rustacean
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
-RUN printf 'liquidprompt_activate\nsource $HOME/.bashrc\n' >> "$HOME/.zshrc"
+RUN printf 'export LC_ALL=C.utf8\nsource $HOME/.bashrc\n' >> "$HOME/.zshrc"
 
 ENV PATH="$HOME/.cargo/bin:$PATH"
