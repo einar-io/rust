@@ -1,7 +1,7 @@
 ## update and install some things we should probably have
-apt-get update
-apt-get upgrade
-apt-get install -y \
+apt update
+apt upgrade
+apt install -y \
   curl \
   git \
   gnupg2 \
@@ -17,9 +17,3 @@ apt-get install -y \
   git-delta \
   liquidprompt \
   mold
-
-## Install rustup and common components
-curl https://sh.rustup.rs -sSf | sh -s -- -y 
-rustup update stable
-rustup component add rustfmt
-rustup component add clippy
