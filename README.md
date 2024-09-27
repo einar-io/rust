@@ -26,7 +26,6 @@ Besides Rust and Cargo, the image comes with the following Rust related tooling:
 - [Crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates): helps Rust developers managing dependencies with Cargo.toml.
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): collaborative, multi-user remote editing from directly within the editor.
 - [Even Better Toml](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml): Support for toml.
-- [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): Vim mode for VSCode.
 
 ### System Tools
 

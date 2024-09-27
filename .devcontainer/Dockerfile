@@ -14,8 +14,10 @@ RUN apt update && apt upgrade -y && apt install -y \
   tig \
   fzf \
   git-delta \
+  fd-find \
   liquidprompt \
-  mold
+  mold \
+  locate
 
 RUN useradd --create-home --shell /bin/zsh rustacean
 

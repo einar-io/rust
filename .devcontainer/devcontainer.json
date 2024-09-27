@@ -7,7 +7,6 @@
 		"tamasfe.even-better-toml",
 		"ms-vsliveshare.vsliveshare",
 		"maattdd.gitless",
-		"vscodevim.vim"
 	],
 	"dockerFile": "Dockerfile",
 	"settings": {
