@@ -27,7 +27,7 @@ This is a basic environment that should be ready to expand upon to build a day-t
 - [gnupg2](https://gnupg.org/): a complete and free implementatiuon of the OpenPGP standard.
 - [openssl](https://www.openssl.org/) - tls and ssl toolkit
 
-### Shell conveniences
+### Shell Conveniences
 
 - [delta](https://github.com/dandavison/delta) - `delta` diff viewer with colours
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - `rg` is a grep replacement
