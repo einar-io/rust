@@ -21,12 +21,8 @@ RUN useradd --create-home --shell /bin/zsh rustacean
 
 WORKDIR /home/rustacean/
 
-COPY user.sh user.sh
-
 USER rustacean
 
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && source $HOME/.cargo/env
-
-RUN bash ./user.sh && rm ./user.sh
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 ENV PATH="$HOME/.cargo/bin:$PATH"
