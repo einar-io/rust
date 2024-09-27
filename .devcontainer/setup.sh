@@ -1,6 +1,6 @@
 ## update and install some things we should probably have
 apt update
-apt upgrade
+#apt upgrade
 apt install -y \
   curl \
   git \
