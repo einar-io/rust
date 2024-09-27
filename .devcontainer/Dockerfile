@@ -4,7 +4,7 @@ RUN useradd --create-home --shell /bin/zsh rustacean
 
 USER rustacean
 
-WORKDIR /home/
+WORKDIR /home/rustacean/
 
 COPY . .
 
