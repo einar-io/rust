@@ -10,6 +10,8 @@
 	"dockerFile": "Dockerfile",
 	"settings": {
 		"gitless.showWelcomeOnInstall": false,
+		"gitlens.showWelcomeOnInstall": false,
+		"gitlens.showWhatsNewAfterUpgrades": false,
 		"editor.formatOnSave": true,
 		"terminal.integrated.shell.linux": "/usr/bin/zsh",
 		"files.exclude": {
