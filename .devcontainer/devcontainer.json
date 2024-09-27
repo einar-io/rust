@@ -1,15 +1,15 @@
 {
-	"name": "Codespaces Rust Starter",
+	"name": "Codespaces Rust Starter 2024",
 	"extensions": [
 		"matklad.rust-analyzer",
 		"vadimcn.vscode-lldb",
-		"serayuzgur.crates",
 		"tamasfe.even-better-toml",
 		"ms-vsliveshare.vsliveshare",
 		"maattdd.gitless",
 	],
 	"dockerFile": "Dockerfile",
 	"settings": {
+		"gitless.showWelcomeOnInstall": false,
 		"editor.formatOnSave": true,
 		"terminal.integrated.shell.linux": "/usr/bin/zsh",
 		"files.exclude": {

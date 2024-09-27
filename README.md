@@ -3,7 +3,7 @@
 
 This repository is under renovation.  Come back later for updates.
 
-# Codespaces Rust Starter
+# Codespaces Rust Starter 2024
 
 This project is a generic starter for developers to use in Codespaces that includes basic system tools and extensions.
 
@@ -23,7 +23,6 @@ Besides Rust and Cargo, the image comes with the following Rust related tooling:
 
 - [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer): an alternative rust language server to the RLS.
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb): native debugger based on LLDB.
-- [Crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates): helps Rust developers managing dependencies with Cargo.toml.
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): collaborative, multi-user remote editing from directly within the editor.
 - [Even Better Toml](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml): Support for toml.
 
