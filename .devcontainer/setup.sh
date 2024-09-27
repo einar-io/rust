@@ -1,5 +1,6 @@
 ## update and install some things we should probably have
 apt-get update
+apt-get upgrade
 apt-get install -y \
   curl \
   git \
@@ -9,7 +10,10 @@ apt-get install -y \
   zsh \
   vim \
   build-essential \
-  openssl
+  openssl \
+  ripgrep \
+  tig \
+
 
 ## Install rustup and common components
 curl https://sh.rustup.rs -sSf | sh -s -- -y 

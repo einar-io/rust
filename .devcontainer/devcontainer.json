@@ -1,11 +1,12 @@
 {
 	"name": "Codespaces Rust Starter",
 	"extensions": [
-		"cschleiden.vscode-github-actions",
-		"ms-vsliveshare.vsliveshare",
 		"matklad.rust-analyzer",
+		"vadimcn.vscode-lldb",
 		"serayuzgur.crates",
-		"vadimcn.vscode-lldb"
+		"tamasfe.even-better-toml",
+		"ms-vsliveshare.vsliveshare",
+		"maattdd.gitless",
 	],
 	"dockerFile": "Dockerfile",
 	"settings": {
