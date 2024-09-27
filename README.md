@@ -30,10 +30,10 @@ Besides Rust and Cargo, the image comes with the following Rust related tooling:
 
 ### System Tools
 
-- [curl/curl](https://github.com/curl/curl): the command line tool for transferring data over a metric boatload of protocols.
+- [curl](https://github.com/curl/curl): the command line tool for transferring data over a metric boatload of protocols.
 - git: the Git SCM tool.
 - [gnupg2](https://gnupg.org/): a complete and free implementatiuon of the OpenPGP standard.
-- [stedolan/jq](https://github.com/stedolan/jq) - a command line JSON parser.
+- [jq](https://github.com/stedolan/jq) - a command line JSON parser.
 - [sudo](https://www.sudo.ws/) - the superuser authority delegation tool.
 - [zsh](https://www.zsh.org/) - interactive terminal (alternative to `bash`).
 - [vim](https://www.vim.org/) - a text editor
