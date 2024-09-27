@@ -2,9 +2,22 @@ FROM ubuntu:24.04
 
 WORKDIR /root/
 
-COPY setup.sh setup.sh
-
-RUN bash ./setup.sh && rm ./setup.sh
+RUN apt update && apt upgrade && apt install -y \
+  curl \
+  git \
+  gnupg2 \
+  jq \
+  sudo \
+  zsh \
+  vim \
+  build-essential \
+  openssl \
+  ripgrep \
+  tig \
+  fzf \
+  git-delta \
+  liquidprompt \
+  mold
 
 RUN useradd --create-home --shell /bin/zsh rustacean
 
