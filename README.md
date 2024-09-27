@@ -1,7 +1,7 @@
 
 # Update 2024-09-26
 
-This repository is under renovation.  Come back soon for updates.
+This repository is under renovation.  Come back later for updates.
 
 # Codespaces Rust Starter
 
