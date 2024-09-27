@@ -104,8 +104,3 @@ To load this setup in a container, we need to point to it. We have many options 
 ![](https://user-images.githubusercontent.com/113/84297926-2ad3da00-ab03-11ea-8045-690eb0763d9f.png)
 
 That's it, you are all setup, you can modify and run the code in your local VSCode instance but the code and extensions will run in your container.
-
-
-## Contributing
-
-Contributions are welcome. Please refrain from opinionated additions like linters. However, adding package managers and other DX improvements that are additive like `yarn` are welcome. Contributors must follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
