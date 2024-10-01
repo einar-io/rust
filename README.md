@@ -15,17 +15,18 @@ This is a basic environment that should be ready to expand upon to build a day-t
 
 ### System Tools
 
-- [rustup](https://rustup.rs/): installer and toolchain manager.  Provides `cargo` including `cargo fmt` and `cargo clippy`.
-- [mold](https://github.com/rui314/mold) - the `mold` linker.  This is not active by default. #todo
-- [git](https://git-scm.com/): the Git SCM tool.
-- [vim](https://www.vim.org/) - a text editor
-- [curl](https://github.com/curl/curl): the command line tool for transferring data over a metric boatload of protocols.
+- [rustup](https://rustup.rs/) -installer and toolchain manager.  Provides `cargo` including `cargo fmt` and `cargo clippy`.
+- [mold](https://github.com/rui314/mold) - the `mold` linker.  This is not active by default. #todo.
+- [git](https://git-scm.com/) - the Git SCM tool.
+- [vim](https://www.vim.org/) - a text editor.
+- [eza](https://github.com/eza-community/eza) - is a modern, maintained replacement for the venerable file-listing command-line program `ls`.
+- [curl](https://github.com/curl/curl) - the command line tool for transferring data over a metric boatload of protocols.
 - [jq](https://github.com/stedolan/jq) - a command line JSON parser.
 - [sudo](https://www.sudo.ws/) - the superuser authority delegation tool.
 - [zsh](https://www.zsh.org/) - interactive terminal (alternative to `bash`).
-- [build essentials](https://packages.debian.org/sid/build-essential) - tools for compiling and linking code
-- [gnupg2](https://gnupg.org/): a complete and free implementatiuon of the OpenPGP standard.
-- [openssl](https://www.openssl.org/) - tls and ssl toolkit
+- [build essentials](https://packages.debian.org/sid/build-essential) - tools for compiling and linking code.
+- [gnupg2](https://gnupg.org/) - a complete and free implementatiuon of the OpenPGP standard.
+- [openssl](https://www.openssl.org/) - tls and ssl toolkit.
 
 ### Shell Conveniences
 

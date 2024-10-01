@@ -3,6 +3,7 @@ FROM ubuntu:24.04
 RUN apt update && apt upgrade -y && apt install -y \
   build-essential \                                                                                               
   curl \ 
+  eza \
   fd-find \
   fzf \
   git \
